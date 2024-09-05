@@ -1,0 +1,7 @@
+a_str = input()
+i = 0
+
+while i < len(a_str):
+    if i % 2 == 0:
+        print(a_str[i],end="")
+    i += 1
